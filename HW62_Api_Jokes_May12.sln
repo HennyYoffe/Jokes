@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW62_Api_Jokes_May12", "HW62_Api_Jokes_May12\HW62_Api_Jokes_May12.csproj", "{6D86BD64-052D-4DC1-BF1C-F586CC5ED54A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{762EDE76-354F-4824-9DD9-F55233903FBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6D86BD64-052D-4DC1-BF1C-F586CC5ED54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D86BD64-052D-4DC1-BF1C-F586CC5ED54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D86BD64-052D-4DC1-BF1C-F586CC5ED54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762EDE76-354F-4824-9DD9-F55233903FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762EDE76-354F-4824-9DD9-F55233903FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762EDE76-354F-4824-9DD9-F55233903FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762EDE76-354F-4824-9DD9-F55233903FBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

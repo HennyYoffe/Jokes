@@ -1,0 +1,39 @@
+﻿@using HW62_Api_Jokes_May12
+@model List<ViewJokeViewModel>
+@{
+    ViewData["Title"] = "ViewJokes";
+}
+
+<div class="container">
+    <div class="header">
+        <h2>All Jokes</h2>
+    </div>
+    <div class="row header">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <tr style="text-align:center;vertical-align:middle;">
+                    <th style="text-align:center;vertical-align:middle;">Joke</th>
+                    <th style="text-align:center;vertical-align:middle;">Likes</th>
+                    <th style="text-align:center;vertical-align:middle;">Dislikes</th>
+                </tr>
+                @foreach (ViewJokeViewModel vm in Model)
+                {
+                    <tr>
+
+                        <td style="text-align:center;vertical-align:middle;">
+                            @vm.Joke.Setup
+                            @vm.Joke.Punchline
+                        </td>
+                        <td style="text-align:center;vertical-align:middle;">
+                            @vm.Likes
+                        </td>
+                        <td style="text-align:center;vertical-align:middle;">
+                            @vm.Dislikes
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+</div>
